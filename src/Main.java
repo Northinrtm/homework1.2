@@ -25,5 +25,11 @@ public class Main {
                 eggs * weightEgg;
         System.out.println("Общий вес завтрака: " + weightBreakfast);
         System.out.println("В килограммах это: " + (weightBreakfast / 1000));
+        System.out.println("4 задача:");
+        int weightLose = 7;
+        System.out.println("Если терять вес по 500 грамм в день, боец похудеет за " + weightLose * 1000 / 500 + " дней");
+        System.out.println("Если терять вес по 250 грамм в день, боец похудеет за " + weightLose * 1000 / 250 + " дней");
+        System.out.println("В среднем боец должен похудеть за "
+                + (weightLose * 1000 / 500 + weightLose * 1000 / 250) / 2 + " день" );
     }
 }
